@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picadu - new post</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <div class="nav-wrapper">
+      <div class="nav-menu">
+        <div class="logo">
+          <a href="index.html" class="header-logo">
+            <img src="img/Pikadu.svg" alt="logo" class="nav-logo" />
+          </a>
+        </div>
+        <div class="nav-links">
+          <div class="nav-menu-div">
+            <a href="#" class="nav-link">Свежее</a>
+            <a href="#" class="nav-link">Лучшее</a>
+            <a href="#" class="nav-link">Горячее</a>
+            <a href="#" class="nav-link">Подписки</a>
+          </div>
+        </div>
+        <div class="nav-search input">
+          <input type="search" class="nav-search-input" placeholder="Поиск по сайту" />
+          <button class="nav-search-button">
+            <img src="img/search.svg" alt="icon: search" class="nav-search-icon" />
+          </button>
+        </div>
+        <a href="#" class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+  <div class="content">
+    <main class="posts">
+      <form action="#" class="add-post">
+        <input type="text" name="post-title" class="add-title" placeholder="Заголовок поста">
+        <textarea name="post-text" id="text" class="add-text" placeholder="Текст вашего поста"></textarea>
+        <div class="add-buttons">
+          <button class="button add-button">
+            <svg class="icon icon-fire">
+              <use xlink:href="img/icons.svg#fire"></use>
+            </svg>
+            Опубликовать пост
+          </button>
+          <button class="button button-outline">
+            <svg class="icon icon-outline">
+              <use xlink:href="img/icons.svg#video"></use>
+            </svg>
+            Видео</button>
+          <button class="button button-outline">
+            <svg class="icon icon-outline">
+              <use xlink:href="img/icons.svg#photo"></use>
+            </svg>
+            Фото</button>
+        </div>
+      </form>
+    </main>
+    <aside class="sidebar">
+      <div class="user">
+        <a href="#" class="user-info">
+          <img width="40px" height="40px" src="img/avatr.jpg" alt="photo: user" class="user-avatar">
+          <span class="user-name">artem</span>
+        </a>
+        <a href="#" class="exit">
+          <svg width="20" height="20" class="icon icon-exit">
+            <use xlink:href="img/icons.svg#exit"></use>
+          </svg>
+        </a>
+      </div>
+      <nav class="sidebar-nav">
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Ответы</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Комментарии</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link active">Оценки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Сохраненное</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Подписки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Заметки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-nav -->
+      <a href="#" class="promo">
+
+      </a>
+    </aside>
+  </div>
+  <!-- /.content -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
